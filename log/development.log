@@ -714,3 +714,17 @@ Completed 201 Created in 430ms (Views: 75.8ms | ActiveRecord: 38.0ms)
 
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/api/v1/users" for ::1 at 2019-06-28 16:24:06 +0100
+  
+SyntaxError (/Users/rebecca/Desktop/Development/Mod-5/Plant-Mom/plant-mom-backend/app/controllers/application_controller.rb:36: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:36: syntax error, unexpected end-of-input, expecting end
+app/controllers/api/v1/users_controller.rb:1:in `<main>'
+Started POST "/api/v1/users" for ::1 at 2019-06-28 16:26:20 +0100
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/rebecca/Desktop/Development/Mod-5/Plant-Mom/plant-mom-backend/app/controllers/application_controller.rb:36: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:36: syntax error, unexpected end-of-input, expecting end
+app/controllers/api/v1/users_controller.rb:1:in `<main>'
