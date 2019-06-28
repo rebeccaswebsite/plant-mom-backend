@@ -66,3 +66,5 @@ gem 'pg', group: [:development, :production, :test]
 gem "jwt", "~> 2.2"
 
 gem 'rack-cors'
+
+gem 'active_model_serializers'
