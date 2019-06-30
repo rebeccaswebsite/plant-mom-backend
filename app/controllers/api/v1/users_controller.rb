@@ -11,6 +11,22 @@ class Api::V1::UsersController < ApplicationController
     end
    end
 
+   def show
+        user = User.find_by(id: params[:id])
+        render json: user
+    end
+
+    def update
+        user = User.find(id: params[:id])
+        user.update(user_params)
+        render json: user 
+    end
+
+    def destroy
+        user = User.find_by(id: params[:id])
+        user.destroy
+    end
+
    private
    def user_params
     params.require(:user).permit(:username, :password)
