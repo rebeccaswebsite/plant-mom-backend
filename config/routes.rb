@@ -5,7 +5,9 @@ Rails.application.routes.draw do
       resources :users, only: [:create, :show, :update, :destroy]
       resources :rooms, only: [:create, :show, :update, :destroy]
       resources :plants, only: [:index, :show]
-      post '/login', to: 'auth#create'
+      post '/login', to: 'users#login'
+      get '/validate', to: 'users#validate'
+      get '/myrooms', to: 'users#my_rooms'
     end
   end
 end
