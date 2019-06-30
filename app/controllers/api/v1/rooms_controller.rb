@@ -23,6 +23,11 @@ class Api::V1::RoomsController < ApplicationController
         render json: room
     end
 
+    def destroy
+        room = Room.find_by(id: params[:id])
+        room.destroy
+    end
+
     private
 
     def room_params
