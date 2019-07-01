@@ -1,12 +1,13 @@
 class PlantsController < ApplicationController
     def index
         plants = Plant.all
-        render json: plants
+        render json: PlantSerializer.new(plants).to_serialized_hash
     end
+
 
     def show
         plant = Plant.find_by(id: params[:id])
-        render json:  plant
+        render json: PlantSerializer.new(plant).to_serialized_hash
     end
  end
  

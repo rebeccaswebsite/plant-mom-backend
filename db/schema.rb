@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_28_125622) do
+ActiveRecord::Schema.define(version: 2019_07_01_190635) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "details", force: :cascade do |t|
-    t.bigint "plant_id"
+    t.integer "plant_id"
     t.string "watering_schedule"
     t.string "sunlight_exposure"
     t.integer "temperature"
@@ -30,11 +30,12 @@ ActiveRecord::Schema.define(version: 2019_06_28_125622) do
     t.string "common_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "img"
   end
 
   create_table "room_plants", force: :cascade do |t|
-    t.bigint "room_id"
-    t.bigint "plant_id"
+    t.integer "room_id"
+    t.integer "plant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["plant_id"], name: "index_room_plants_on_plant_id"
@@ -42,7 +43,7 @@ ActiveRecord::Schema.define(version: 2019_06_28_125622) do
   end
 
   create_table "rooms", force: :cascade do |t|
-    t.bigint "user_id"
+    t.integer "user_id"
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

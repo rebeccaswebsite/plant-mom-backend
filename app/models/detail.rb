@@ -1,3 +1,4 @@
 class Detail < ApplicationRecord
-  belongs_to :plant
+    belongs_to :plant
 end
+  
