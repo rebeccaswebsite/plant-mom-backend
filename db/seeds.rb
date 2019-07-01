@@ -1,3 +1,11 @@
+RoomPlant.destroy_all
+Detail.destroy_all
+Room.destroy_all
+
+Plant.destroy_all
+User.destroy_all
+
+
 rebecca = User.create(username: "rebecca", password: "password")
 amy = User.create(username: "amy", password: "password")
 
@@ -9,7 +17,7 @@ bathroom = Room.create(user: amy, name: "bathroom")
 succulent = Plant.create(common_name: "succulent")
 cactus = Plant.create(common_name: "cactus")
 aloe_vera = Plant.create(common_name: "aloe vera")
-spider_plant = Plant.create(common_name: "spider_plant")
+spider_plant = Plant.create(common_name: "spider plant")
 
 succulent_detail = Detail.create(plant: succulent, watering_schedule: "once a week", sunlight_exposure: "three hours of direct sun a day", temperature: 20, humidity: 40)
 cactus_detail = Detail.create(plant: cactus,  watering_schedule: "once a week", sunlight_exposure: "five hours of direct sun a day", temperature: 20, humidity: 40)
