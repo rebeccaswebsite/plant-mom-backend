@@ -1,6 +1,4 @@
-class Api::V1::UsersController < ApplicationController
-   skip_before_action :authorized, only: [:create]
-
+class UsersController < ApplicationController
     def create 
         @user = User.create(user_params)
         if @user.valid?
@@ -19,12 +17,12 @@ class Api::V1::UsersController < ApplicationController
         end
     end
 
-    def signin
+    def login
         user = User.find_by(username: params[:username])
         if user && user.authenticate(params[:password])
           render json: { username: user.username, token: issue_token({ id: user.id }) }
         else
-          render json: { error: 'Invalid username/password combination.' }, status: 401
+          render json: { error: "Invalid username/password combination." }, status: 401
         end
     end
 

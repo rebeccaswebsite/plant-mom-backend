@@ -1,6 +1,4 @@
-class ApplicationController < ActionController::API
-    before_action :authorized            
-   
+class ApplicationController < ActionController::API   
     def current_user
         id = decode_token['id']
         User.find_by(id: id)
@@ -25,8 +23,4 @@ class ApplicationController < ActionController::API
     def secret
         'shh'
     end
-
-    def authorized
-        render json: { message: 'Please log in' }, status: :unauthorized unless logged_in?
-    end    
   end

@@ -1,4 +1,4 @@
-class Api::V1::PlantsController < ApplicationController
+class PlantsController < ApplicationController
     def index
         plants = Plant.all
         render json: plants

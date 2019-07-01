@@ -1,4 +1,4 @@
-class Api::V1::RoomsController < ApplicationController
+class RoomsController < ApplicationController
     def show
         room = Room.all.find_by(id: params[:id])
         render json: room 
