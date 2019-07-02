@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::API   
+    include ActionController::Serialization
+
     def current_user
         id = decode_token['id']
         User.find_by(id: id)
