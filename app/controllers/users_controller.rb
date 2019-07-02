@@ -20,7 +20,7 @@ class UsersController < ApplicationController
     def login
         user = User.find_by(username: params[:username])
         if user && user.authenticate(params[:password])
-          render json: { username: user.username, token: issue_token({ id: user.id }) }
+          render json: { username: user.username, token: issue_token({ id: user.id }), user_id: user.id }
         else
           render json: { error: "Invalid username/password combination." }, status: 401
         end
@@ -29,7 +29,7 @@ class UsersController < ApplicationController
     def validate
         user = current_user
         if user
-          render json: { username: user.username, token: issue_token({ id: user.id }) }
+          render json: { username: user.username, token: issue_token({ id: user.id }), user_id: user.id }
         else
           render json: { error: 'User not found.' }, status: 404
         end
@@ -38,7 +38,7 @@ class UsersController < ApplicationController
     def my_rooms
         user = current_user
         if user
-          render json: rooms, include: [:rooms]
+          render :json => user.rooms.to_json(:include => {:plants => {:include => {:details => {:except  => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at])
         else
           render json: { error: 'Invalid token.' }, status: 400
         end

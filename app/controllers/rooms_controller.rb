@@ -1,4 +1,13 @@
 class RoomsController < ApplicationController
+    def index
+        @rooms = Room.all
+        if @rooms
+          render json: @rooms
+        else
+          render json: { error: 'Cannot find rooms' }, status: 404
+        end
+    end
+
     def show
         @room = Room.find(params[:id])
         if @room
