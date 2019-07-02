@@ -10,8 +10,9 @@ class PlantsController < ApplicationController
       end
     
       def show
+        @plant = Plant.find(params[:id])
         if @plant
-          render json: @plant, root: "plant", adapter: :json
+          render json: @plant, include: [:details]
         else
           render json: { error: 'Cannot find plant' }, status: 404
         end

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :users, only: [:create, :show, :update, :destroy]
   resources :rooms, only: [:create, :show, :update, :destroy]
   resources :plants, only: [:index, :show]
-  resources :suggestions, only: [:index]
+  resources :suggestions, only: [:index, :create]
   post '/login', to: 'users#login'
   get '/validate', to: 'users#validate'
   get '/my-rooms', to: 'users#my_rooms'

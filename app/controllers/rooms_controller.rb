@@ -1,7 +1,8 @@
 class RoomsController < ApplicationController
     def show
+        @room = Room.find(params[:id])
         if @room
-          render json: @room, root: "room", adapter: :json
+            render :json => @room.to_json(:include => {:plants => {:include => {:details => {:except  => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at])
         else
           render json: { error: 'Cannot find room' }, status: 404
         end
