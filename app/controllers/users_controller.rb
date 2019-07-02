@@ -38,7 +38,7 @@ class UsersController < ApplicationController
     def my_rooms
         user = current_user
         if user
-          render json: user.rooms
+          render json: rooms, include: 'rooms.plants.**'
         else
           render json: { error: 'Invalid token.' }, status: 400
         end

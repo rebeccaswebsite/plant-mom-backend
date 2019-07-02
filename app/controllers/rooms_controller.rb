@@ -1,8 +1,11 @@
 class RoomsController < ApplicationController
     def show
-        room = Room.all.find_by(id: params[:id])
-        render json: room 
-    end
+        if @room
+          render json: @room, root: "room", adapter: :json
+        else
+          render json: { error: 'Cannot find room' }, status: 404
+        end
+      end
 
     def create
         room = Room.new(user_id: room_params[:user_id], name: room_params[:name])

@@ -33,3 +33,6 @@ plant_appearance_six = RoomPlant.create(room: living_room, plant: spider_plant)
 plant_appearance_seven = RoomPlant.create(room: living_room, plant: succulent)
 plant_appearance_eight = RoomPlant.create(room: bedroom, plant: flowering_cactus)
 plant_appearance_nine = RoomPlant.create(room: bedroom, plant: succulent)
+
+suggestion_one = Suggestion.create(plant: succulent, suggestion: "only water it once a month")
+suggestion_two = Suggestion.create(plant: cactus, suggestion: "cacti need 10 hours of sunlight a day")
