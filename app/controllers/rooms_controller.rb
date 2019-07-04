@@ -1,17 +1,17 @@
 class RoomsController < ApplicationController
     def index
-        @rooms = Room.all
-        if @rooms
-          render json: @rooms
+        rooms = Room.all
+        if rooms
+          render json: rooms
         else
           render json: { error: 'Cannot find rooms' }, status: 404
         end
     end
 
     def show
-        @room = Room.find(params[:id])
-        if @room
-            render :json => @room.to_json(:include => {:plants => {:include => {:details => {:except  => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at])
+        room = Room.find(params[:id])
+        if room
+            render :json => room.to_json(:include => {:plants => {:include => {:details => {:except  => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at]}}, :except => [:created_at, :updated_at])
         else
           render json: { error: 'Cannot find room' }, status: 404
         end
@@ -39,6 +39,7 @@ class RoomsController < ApplicationController
     def destroy
         room = Room.find_by(id: params[:id])
         room.destroy
+        render json: "Room deleted"
     end
 
     private

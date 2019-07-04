@@ -1,6 +1,7 @@
 RoomPlant.destroy_all
 Detail.destroy_all
 Room.destroy_all
+Suggestion.destroy_all
 
 Plant.destroy_all
 User.destroy_all
