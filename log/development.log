@@ -25955,3 +25955,2332 @@ No serializer found for resource: #<Room id: 1, user_id: 1, name: "Living room",
 Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 4.4ms)
 
 
+Started GET "/validate" for ::1 at 2019-07-03 00:31:20 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 34ms (Views: 10.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 00:32:31 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.66ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 00:33:25 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (15.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 22ms (Views: 2.9ms | ActiveRecord: 15.2ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 00:33:33 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 00:34:08 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 00:36:11 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 09:29:45 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 26ms (Views: 5.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 09:29:47 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 09:46:19 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 200 OK in 18ms (Views: 3.2ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:46:21 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (4.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (43.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.3ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 90ms (Views: 1.9ms | ActiveRecord: 53.4ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 09:46:23 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (15.84ms)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:46:24 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.2ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (2.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 44ms (Views: 1.1ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:46:26 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (2.1ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/rooms" for ::1 at 2019-07-03 09:46:51 +0100
+Processing by RoomsController#create as JSON
+  Parameters: {"user_id"=>1, "name"=>"Office", "room"=>{"user_id"=>1, "name"=>"Office"}}
+  [1m[35m (43.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mRoom Create (24.6ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["name", "Office"], ["created_at", "2019-07-03 08:46:51.401230"], ["updated_at", "2019-07-03 08:46:51.401230"]]
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Room (1.73ms)
+Completed 200 OK in 83ms (Views: 3.6ms | ActiveRecord: 71.1ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:46:55 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (1.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (2.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 6]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 50ms (Views: 1.1ms | ActiveRecord: 22.4ms)
+
+
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (335.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "plant-mom_development"[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (278.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "plant-mom_test"[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (578.1ms)[0m  [1m[35mCREATE DATABASE "plant-mom_development" ENCODING = 'utf8'[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (446.8ms)[0m  [1m[35mCREATE DATABASE "plant-mom_test" ENCODING = 'utf8'[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35mSQL (4.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (1.8ms)[0m  [1m[35mDROP TABLE IF EXISTS "details" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (41.0ms)[0m  [1m[35mCREATE TABLE "details" ("id" bigserial primary key, "plant_id" integer, "watering_schedule" character varying, "sunlight_exposure" character varying, "temperature" integer, "humidity" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE  INDEX  "index_details_on_plant_id" ON "details"  ("plant_id")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "plants" CASCADE[0m
+  ↳ db/schema.rb:29
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "plants" ("id" bigserial primary key, "common_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "img" character varying)[0m
+  ↳ db/schema.rb:29
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "room_plants" CASCADE[0m
+  ↳ db/schema.rb:36
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "room_plants" ("id" bigserial primary key, "room_id" integer, "plant_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:36
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX  "index_room_plants_on_plant_id" ON "room_plants"  ("plant_id")[0m
+  ↳ db/schema.rb:36
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE  INDEX  "index_room_plants_on_room_id" ON "room_plants"  ("room_id")[0m
+  ↳ db/schema.rb:36
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "rooms" CASCADE[0m
+  ↳ db/schema.rb:45
+  [1m[35m (9.9ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" bigserial primary key, "user_id" integer, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX  "index_rooms_on_user_id" ON "rooms"  ("user_id")[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "suggestions" CASCADE[0m
+  ↳ db/schema.rb:53
+  [1m[35m (11.8ms)[0m  [1m[35mCREATE TABLE "suggestions" ("id" bigserial primary key, "plant_id" integer, "suggestion" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE  INDEX  "index_suggestions_on_plant_id" ON "suggestions"  ("plant_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  ↳ db/schema.rb:61
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:61
+  [1m[35m (13.0ms)[0m  [1m[35mALTER TABLE "details" ADD CONSTRAINT "fk_rails_680e799adf"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:68
+  [1m[35m (2.9ms)[0m  [1m[35mALTER TABLE "room_plants" ADD CONSTRAINT "fk_rails_f5a84b7aad"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:69
+  [1m[35m (3.0ms)[0m  [1m[35mALTER TABLE "room_plants" ADD CONSTRAINT "fk_rails_681ceca13d"
+FOREIGN KEY ("room_id")
+  REFERENCES "rooms" ("id")
+[0m
+  ↳ db/schema.rb:70
+  [1m[35m (7.6ms)[0m  [1m[35mALTER TABLE "rooms" ADD CONSTRAINT "fk_rails_a63cab0c67"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  ↳ db/schema.rb:71
+  [1m[35m (2.6ms)[0m  [1m[35mALTER TABLE "suggestions" ADD CONSTRAINT "fk_rails_407564d4dd"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:72
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190702134649)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190701190635),
+(20190628123411),
+(20190628123305),
+(20190701160536),
+(20190628123333),
+(20190628123233);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (11.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-07-03 08:48:44.439521"], ["updated_at", "2019-07-03 08:48:44.439521"]]
+  ↳ db/schema.rb:13
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "details" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (21.6ms)[0m  [1m[35mCREATE TABLE "details" ("id" bigserial primary key, "plant_id" integer, "watering_schedule" character varying, "sunlight_exposure" character varying, "temperature" integer, "humidity" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE  INDEX  "index_details_on_plant_id" ON "details"  ("plant_id")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "plants" CASCADE[0m
+  ↳ db/schema.rb:29
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "plants" ("id" bigserial primary key, "common_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "img" character varying)[0m
+  ↳ db/schema.rb:29
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "room_plants" CASCADE[0m
+  ↳ db/schema.rb:36
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "room_plants" ("id" bigserial primary key, "room_id" integer, "plant_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:36
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE  INDEX  "index_room_plants_on_plant_id" ON "room_plants"  ("plant_id")[0m
+  ↳ db/schema.rb:36
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE  INDEX  "index_room_plants_on_room_id" ON "room_plants"  ("room_id")[0m
+  ↳ db/schema.rb:36
+  [1m[35m (0.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "rooms" CASCADE[0m
+  ↳ db/schema.rb:45
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" bigserial primary key, "user_id" integer, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:45
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE  INDEX  "index_rooms_on_user_id" ON "rooms"  ("user_id")[0m
+  ↳ db/schema.rb:45
+  [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "suggestions" CASCADE[0m
+  ↳ db/schema.rb:53
+  [1m[35m (12.3ms)[0m  [1m[35mCREATE TABLE "suggestions" ("id" bigserial primary key, "plant_id" integer, "suggestion" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:53
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE  INDEX  "index_suggestions_on_plant_id" ON "suggestions"  ("plant_id")[0m
+  ↳ db/schema.rb:53
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  ↳ db/schema.rb:61
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:61
+  [1m[35m (6.6ms)[0m  [1m[35mALTER TABLE "details" ADD CONSTRAINT "fk_rails_680e799adf"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:68
+  [1m[35m (7.9ms)[0m  [1m[35mALTER TABLE "room_plants" ADD CONSTRAINT "fk_rails_f5a84b7aad"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:69
+  [1m[35m (4.2ms)[0m  [1m[35mALTER TABLE "room_plants" ADD CONSTRAINT "fk_rails_681ceca13d"
+FOREIGN KEY ("room_id")
+  REFERENCES "rooms" ("id")
+[0m
+  ↳ db/schema.rb:70
+  [1m[35m (4.8ms)[0m  [1m[35mALTER TABLE "rooms" ADD CONSTRAINT "fk_rails_a63cab0c67"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  ↳ db/schema.rb:71
+  [1m[35m (3.6ms)[0m  [1m[35mALTER TABLE "suggestions" ADD CONSTRAINT "fk_rails_407564d4dd"
+FOREIGN KEY ("plant_id")
+  REFERENCES "plants" ("id")
+[0m
+  ↳ db/schema.rb:72
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190702134649)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190701190635),
+(20190628123411),
+(20190628123305),
+(20190701160536),
+(20190628123333),
+(20190628123233);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-07-03 08:48:44.706792"], ["updated_at", "2019-07-03 08:48:44.706792"]]
+  ↳ db/schema.rb:13
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Update (2.1ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-07-03 08:48:44.714095"], ["key", "environment"]]
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mRoomPlant Load (1.0ms)[0m  [1m[34mSELECT "room_plants".* FROM "room_plants"[0m
+  ↳ db/seeds.rb:1
+  [1m[36mDetail Load (1.0ms)[0m  [1m[34mSELECT "details".* FROM "details"[0m
+  ↳ db/seeds.rb:2
+  [1m[36mRoom Load (0.7ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms"[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (2.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Rebecca"], ["password_digest", "$2a$12$S7zPDGnBOpTHoK/sSvMKku99qlBtLw.bRZGV7ViICBMrB07.a0wr2"], ["created_at", "2019-07-03 08:48:45.100529"], ["updated_at", "2019-07-03 08:48:45.100529"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Amy"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Amy"], ["password_digest", "$2a$12$rXjJMGO1NFpAvrKrErLkMObnq9l5mx8bGeGBXGH9WsPJP.ZO4g8dG"], ["created_at", "2019-07-03 08:48:45.384936"], ["updated_at", "2019-07-03 08:48:45.384936"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mRoom Create (1.7ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["name", "Living room"], ["created_at", "2019-07-03 08:48:45.404192"], ["updated_at", "2019-07-03 08:48:45.404192"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mRoom Create (1.0ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["name", "Bedroom"], ["created_at", "2019-07-03 08:48:45.448990"], ["updated_at", "2019-07-03 08:48:45.448990"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mRoom Create (1.0ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["name", "Kitchen"], ["created_at", "2019-07-03 08:48:45.454553"], ["updated_at", "2019-07-03 08:48:45.454553"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mRoom Create (0.9ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["name", "Bathroom"], ["created_at", "2019-07-03 08:48:45.460098"], ["updated_at", "2019-07-03 08:48:45.460098"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mPlant Create (0.8ms)[0m  [1m[32mINSERT INTO "plants" ("common_name", "created_at", "updated_at", "img") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["common_name", "Succulent"], ["created_at", "2019-07-03 08:48:45.481113"], ["updated_at", "2019-07-03 08:48:45.481113"], ["img", "/succulent.jpg"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPlant Create (0.4ms)[0m  [1m[32mINSERT INTO "plants" ("common_name", "created_at", "updated_at", "img") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["common_name", "Cactus"], ["created_at", "2019-07-03 08:48:45.485397"], ["updated_at", "2019-07-03 08:48:45.485397"], ["img", "/cactus.jpg"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mPlant Create (0.5ms)[0m  [1m[32mINSERT INTO "plants" ("common_name", "created_at", "updated_at", "img") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["common_name", "Flowering cactus"], ["created_at", "2019-07-03 08:48:45.489026"], ["updated_at", "2019-07-03 08:48:45.489026"], ["img", "/flowering_cactus.jpg"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mPlant Create (0.3ms)[0m  [1m[32mINSERT INTO "plants" ("common_name", "created_at", "updated_at", "img") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["common_name", "Spider plant"], ["created_at", "2019-07-03 08:48:45.493204"], ["updated_at", "2019-07-03 08:48:45.493204"], ["img", "/spider_plant.jpg"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mDetail Create (1.4ms)[0m  [1m[32mINSERT INTO "details" ("plant_id", "watering_schedule", "sunlight_exposure", "temperature", "humidity", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["plant_id", 1], ["watering_schedule", "once a week"], ["sunlight_exposure", "three hours of direct sun a day"], ["temperature", 20], ["humidity", 40], ["created_at", "2019-07-03 08:48:45.507632"], ["updated_at", "2019-07-03 08:48:45.507632"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mDetail Create (0.6ms)[0m  [1m[32mINSERT INTO "details" ("plant_id", "watering_schedule", "sunlight_exposure", "temperature", "humidity", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["plant_id", 2], ["watering_schedule", "once a week"], ["sunlight_exposure", "five hours of direct sun a day"], ["temperature", 20], ["humidity", 40], ["created_at", "2019-07-03 08:48:45.512704"], ["updated_at", "2019-07-03 08:48:45.512704"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mDetail Create (0.6ms)[0m  [1m[32mINSERT INTO "details" ("plant_id", "watering_schedule", "sunlight_exposure", "temperature", "humidity", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["plant_id", 3], ["watering_schedule", "twice a week"], ["sunlight_exposure", "four hours of direct sun a day"], ["temperature", 15], ["humidity", 50], ["created_at", "2019-07-03 08:48:45.516975"], ["updated_at", "2019-07-03 08:48:45.516975"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mDetail Create (0.5ms)[0m  [1m[32mINSERT INTO "details" ("plant_id", "watering_schedule", "sunlight_exposure", "temperature", "humidity", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["plant_id", 4], ["watering_schedule", "once a week"], ["sunlight_exposure", "two hours of direct sun a day"], ["temperature", 10], ["humidity", 30], ["created_at", "2019-07-03 08:48:45.520685"], ["updated_at", "2019-07-03 08:48:45.520685"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mRoomPlant Create (1.2ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 1], ["plant_id", 1], ["created_at", "2019-07-03 08:48:45.532321"], ["updated_at", "2019-07-03 08:48:45.532321"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mRoomPlant Create (0.6ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 2], ["plant_id", 2], ["created_at", "2019-07-03 08:48:45.536770"], ["updated_at", "2019-07-03 08:48:45.536770"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRoomPlant Create (0.6ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 4], ["plant_id", 1], ["created_at", "2019-07-03 08:48:45.540786"], ["updated_at", "2019-07-03 08:48:45.540786"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mRoomPlant Create (0.6ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 3], ["plant_id", 4], ["created_at", "2019-07-03 08:48:45.544609"], ["updated_at", "2019-07-03 08:48:45.544609"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mRoomPlant Create (0.8ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 1], ["plant_id", 3], ["created_at", "2019-07-03 08:48:45.548644"], ["updated_at", "2019-07-03 08:48:45.548644"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mRoomPlant Create (0.6ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 1], ["plant_id", 4], ["created_at", "2019-07-03 08:48:45.552654"], ["updated_at", "2019-07-03 08:48:45.552654"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:33
+  [1m[36mRoomPlant Create (0.5ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 1], ["plant_id", 1], ["created_at", "2019-07-03 08:48:45.556657"], ["updated_at", "2019-07-03 08:48:45.556657"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:34
+  [1m[36mRoomPlant Create (0.5ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 2], ["plant_id", 3], ["created_at", "2019-07-03 08:48:45.573982"], ["updated_at", "2019-07-03 08:48:45.573982"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mRoomPlant Create (0.5ms)[0m  [1m[32mINSERT INTO "room_plants" ("room_id", "plant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["room_id", 2], ["plant_id", 1], ["created_at", "2019-07-03 08:48:45.577750"], ["updated_at", "2019-07-03 08:48:45.577750"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:37
+  [1m[36mSuggestion Create (1.6ms)[0m  [1m[32mINSERT INTO "suggestions" ("plant_id", "suggestion", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["plant_id", 1], ["suggestion", "only water it once a month"], ["created_at", "2019-07-03 08:48:45.593976"], ["updated_at", "2019-07-03 08:48:45.593976"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (12.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mSuggestion Create (1.3ms)[0m  [1m[32mINSERT INTO "suggestions" ("plant_id", "suggestion", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["plant_id", 2], ["suggestion", "cacti need 10 hours of sunlight a day"], ["created_at", "2019-07-03 08:48:45.610428"], ["updated_at", "2019-07-03 08:48:45.610428"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+Started GET "/validate" for ::1 at 2019-07-03 09:49:03 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 61ms (Views: 13.5ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 09:49:04 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:49:07 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (6.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.2ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (5.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 191ms (Views: 3.8ms | ActiveRecord: 39.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:49:13 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 400 Bad Request in 5ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:49:17 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 400 Bad Request in 4ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:49:31 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 400 Bad Request in 9ms (Views: 3.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 09:51:09 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (2.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (26.96ms)
+Completed 200 OK in 62ms (Views: 34.2ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 09:51:14 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (10.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (2.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (6.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (4.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (5.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (4.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (37.93ms)
+Completed 200 OK in 57ms (Views: 22.5ms | ActiveRecord: 33.9ms)
+
+
+Started POST "/suggestions" for ::1 at 2019-07-03 09:52:19 +0100
+Processing by SuggestionsController#create as JSON
+  Parameters: {"plant_id"=>3, "suggestion"=>"this plant needs to be out of the sun during the middle of the day"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT  "plants".* FROM "plants" WHERE "plants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mSuggestion Create (1.2ms)[0m  [1m[32mINSERT INTO "suggestions" ("plant_id", "suggestion", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["plant_id", 3], ["suggestion", "this plant needs to be out of the sun during the middle of the day"], ["created_at", "2019-07-03 08:52:19.375168"], ["updated_at", "2019-07-03 08:52:19.375168"]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Suggestion (0.34ms)
+Completed 200 OK in 57ms (Views: 29.0ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 09:52:22 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (45.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (7.2ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (3.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (2.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (24.79ms)
+Completed 200 OK in 87ms (Views: 26.5ms | ActiveRecord: 59.7ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 09:52:38 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 276ms (Views: 1.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:52:39 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.7ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (3.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (1.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (10.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 48ms (Views: 1.2ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 09:59:49 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 400 Bad Request in 5ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 10:45:17 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (1.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (19.51ms)
+Completed 200 OK in 45ms (Views: 34.4ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 10:45:57 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (9.3ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (14.67ms)
+Completed 200 OK in 30ms (Views: 17.3ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 10:45:59 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (3.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (2.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (21.48ms)
+Completed 200 OK in 28ms (Views: 18.5ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 10:46:03 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (14.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (13.7ms)
+Completed 200 OK in 35ms (Views: 16.9ms | ActiveRecord: 16.7ms)
+
+
+Started POST "/suggestions" for ::1 at 2019-07-03 10:46:16 +0100
+Processing by SuggestionsController#create as JSON
+  Parameters: {"plant_id"=>1, "suggestion"=>"this plant should be watered three time a week"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mPlant Load (1.4ms)[0m  [1m[34mSELECT  "plants".* FROM "plants" WHERE "plants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mSuggestion Create (4.6ms)[0m  [1m[32mINSERT INTO "suggestions" ("plant_id", "suggestion", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["plant_id", 1], ["suggestion", "this plant should be watered three time a week"], ["created_at", "2019-07-03 09:46:16.603639"], ["updated_at", "2019-07-03 09:46:16.603639"]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Suggestion (1.19ms)
+Completed 200 OK in 33ms (Views: 3.7ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 10:46:43 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (12.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (29.82ms)
+Completed 200 OK in 36ms (Views: 19.6ms | ActiveRecord: 16.1ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 10:46:50 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 298ms (Views: 4.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 10:46:50 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (12.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 104ms (Views: 0.8ms | ActiveRecord: 17.0ms)
+
+
+Started POST "/rooms" for ::1 at 2019-07-03 10:47:20 +0100
+Processing by RoomsController#create as JSON
+  Parameters: {"user_id"=>1, "name"=>"Study", "room"=>{"user_id"=>1, "name"=>"Study"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mRoom Create (1.2ms)[0m  [1m[32mINSERT INTO "rooms" ("user_id", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["name", "Study"], ["created_at", "2019-07-03 09:47:21.007914"], ["updated_at", "2019-07-03 09:47:21.007914"]]
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[35m (40.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/rooms_controller.rb:23
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Room (0.4ms)
+Completed 200 OK in 62ms (Views: 7.4ms | ActiveRecord: 46.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 10:47:39 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (16.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (1.3ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (2.2ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (2.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 53ms (Views: 1.3ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 10:55:32 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 400 Bad Request in 4ms (Views: 1.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 11:37:07 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.34ms)
+Completed 400 Bad Request in 14ms (Views: 3.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 11:37:12 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (3.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (16.12ms)
+Completed 200 OK in 31ms (Views: 24.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 11:37:23 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (9.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (3.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (28.31ms)
+Completed 200 OK in 34ms (Views: 18.9ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 11:39:40 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 400 Bad Request in 7ms (Views: 2.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 11:44:05 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.35ms)
+Completed 400 Bad Request in 5ms (Views: 2.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 13:13:01 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.5ms)
+Completed 400 Bad Request in 18ms (Views: 4.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 13:13:03 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (35.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (43.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (4.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (3.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (32.17ms)
+Completed 200 OK in 121ms (Views: 31.1ms | ActiveRecord: 88.4ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 15:38:48 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (43.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.56ms)
+Completed 400 Bad Request in 62ms (Views: 7.4ms | ActiveRecord: 43.8ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 15:38:58 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 281ms (Views: 2.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 15:38:58 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (4.7ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (4.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (1.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 65ms (Views: 1.0ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 15:42:13 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 15:53:13 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 38ms (Views: 6.5ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 15:53:15 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.7ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (5.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (2.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (2.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (1.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.1ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 62ms (Views: 1.6ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 15:53:17 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (11.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (2.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (3.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (28.34ms)
+Completed 200 OK in 53ms (Views: 30.1ms | ActiveRecord: 21.9ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 16:45:38 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.62ms)
+Completed 200 OK in 71ms (Views: 10.5ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 16:50:29 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.53ms)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 16:51:06 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (12.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 200 OK in 20ms (Views: 2.2ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:23:45 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 200 OK in 170ms (Views: 12.8ms | ActiveRecord: 111.3ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:24:41 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:26:49 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 19:27:13 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 278ms (Views: 4.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 19:27:13 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (26.5ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (43.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (42.2ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 334ms (Views: 7.9ms | ActiveRecord: 146.1ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 19:27:23 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (12.11ms)
+Completed 200 OK in 21ms (Views: 13.5ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/suggestions" for ::1 at 2019-07-03 19:27:29 +0100
+Processing by SuggestionsController#create as JSON
+  Parameters: {"plant_id"=>2, "suggestion"=>"this plant should be watered twice daily"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mPlant Load (0.3ms)[0m  [1m[34mSELECT  "plants".* FROM "plants" WHERE "plants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mSuggestion Create (42.8ms)[0m  [1m[32mINSERT INTO "suggestions" ("plant_id", "suggestion", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["plant_id", 2], ["suggestion", "this plant should be watered twice daily"], ["created_at", "2019-07-03 18:27:29.211690"], ["updated_at", "2019-07-03 18:27:29.211690"]]
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/suggestions_controller.rb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Suggestion (0.55ms)
+Completed 200 OK in 88ms (Views: 22.6ms | ActiveRecord: 50.9ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-03 19:27:32 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (5.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (19.61ms)
+Completed 200 OK in 31ms (Views: 19.4ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:55:47 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.67ms)
+Completed 200 OK in 29ms (Views: 6.8ms | ActiveRecord: 6.1ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 19:56:11 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 277ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:58:45 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 19:58:52 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 333ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-03 19:59:05 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 19:59:17 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 273ms (Views: 1.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 19:59:17 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.0ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (44.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (3.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.1ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 92ms (Views: 1.4ms | ActiveRecord: 54.7ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 20:09:46 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 200 OK in 294ms (Views: 8.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 20:09:47 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.1ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (3.1ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (1.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.7ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.5ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 49ms (Views: 1.2ms | ActiveRecord: 9.8ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 20:34:20 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "user"=>{"username"=>""}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", ""], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 401 Unauthorized in 17ms (Views: 8.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 20:37:08 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 200 OK in 278ms (Views: 2.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-03 20:37:08 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.8ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (2.3ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.8ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.6ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 51ms (Views: 1.3ms | ActiveRecord: 10.9ms)
+
+
+Started POST "/users" for ::1 at 2019-07-03 20:58:40 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]", "user"=>{"username"=>"Charlotte"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mUser Exists (2.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Charlotte"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  [1m[35m (42.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Charlotte"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 406 Not Acceptable in 211ms (Views: 5.4ms | ActiveRecord: 106.4ms)
+
+
+Started POST "/users" for ::1 at 2019-07-03 22:13:04 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]", "user"=>{"username"=>"Charlotte"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mUser Exists (2.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Charlotte"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  [1m[35m (1.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mUser Exists (4.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Charlotte"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.55ms)
+Completed 406 Not Acceptable in 66ms (Views: 9.2ms | ActiveRecord: 9.8ms)
+
+
+Started POST "/login" for ::1 at 2019-07-03 23:42:58 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "user"=>{"username"=>""}}
+  [1m[36mUser Load (43.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", ""], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 401 Unauthorized in 67ms (Views: 13.9ms | ActiveRecord: 43.8ms)
+
+
+Started POST "/login" for ::1 at 2019-07-04 10:04:44 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rebecca", "password"=>"[FILTERED]", "user"=>{"username"=>"Rebecca"}}
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rebecca"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.41ms)
+Completed 200 OK in 360ms (Views: 11.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:04:44 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.8ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (49.9ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (3.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (1.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (1.2ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE Detail Load (0.0ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mPlant Load (0.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants" INNER JOIN "room_plants" ON "plants"."id" = "room_plants"."plant_id" WHERE "room_plants"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/controllers/users_controller.rb:41
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 119ms (Views: 1.8ms | ActiveRecord: 59.2ms)
+
+
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:07:29 +0100
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:60:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:09:10 +0100
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:60:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:10:28 +0100
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:64:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:11:06 +0100
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:64:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:13:50 +0100
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:64:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:14:14 +0100
+  [1m[35m (19.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:64:in `user_params'
+app/controllers/users_controller.rb:3:in `create'
+Started POST "/users?username=Charlotte&password=[FILTERED]" for ::1 at 2019-07-04 10:15:52 +0100
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Charlotte", "password"=>"[FILTERED]"}
+  [1m[35m (3.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (42.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Charlotte"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (40.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Charlotte"], ["password_digest", "$2a$12$po9e6jgt4kpShZq2zqyXcOCG3hjQIJumzp9aszWVPk5DJ23OS2wyq"], ["created_at", "2019-07-04 09:15:53.568082"], ["updated_at", "2019-07-04 09:15:53.568082"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.43ms)
+Completed 200 OK in 699ms (Views: 32.8ms | ActiveRecord: 274.4ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:16:33 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Aydie", "password"=>"[FILTERED]", "user"=>{"username"=>"Aydie"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Aydie"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Aydie"], ["password_digest", "$2a$12$qJJPwaO1q8xpIajcpwcNO.ElRc1yw/9CejCIr7dPXefquMDPmA0Am"], ["created_at", "2019-07-04 09:16:33.620860"], ["updated_at", "2019-07-04 09:16:33.620860"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.18ms)
+Completed 200 OK in 294ms (Views: 3.9ms | ActiveRecord: 9.8ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:17:23 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Rosie", "password"=>"[FILTERED]", "user"=>{"username"=>"Rosie"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Rosie"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (2.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Rosie"], ["password_digest", "$2a$12$Si3VFmZ8IHUQDWNPtIoyduJgsecwDN4CX9exLo/pLlaR/.IRzeehi"], ["created_at", "2019-07-04 09:17:23.807848"], ["updated_at", "2019-07-04 09:17:23.807848"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.15ms)
+Completed 200 OK in 320ms (Views: 2.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:17:23 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 400 Bad Request in 63ms (Views: 60.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-04 10:17:27 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (0.8ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.7ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (67.35ms)
+Completed 200 OK in 118ms (Views: 73.8ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:17:28 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (8.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 400 Bad Request in 50ms (Views: 39.7ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-04 10:17:32 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (6.4ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.9ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (1.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (20.52ms)
+Completed 200 OK in 41ms (Views: 24.7ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:17:33 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 400 Bad Request in 41ms (Views: 2.8ms | ActiveRecord: 35.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:17:41 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 400 Bad Request in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-04 10:20:50 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (1.0ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.6ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (15.03ms)
+Completed 200 OK in 32ms (Views: 24.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/plants" for ::1 at 2019-07-04 10:21:39 +0100
+Processing by PlantsController#index as */*
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mPlant Load (1.1ms)[0m  [1m[34mSELECT "plants".* FROM "plants"[0m
+  ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.5ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 1]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.3ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 2]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 3]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers]   [1m[36mDetail Load (0.4ms)[0m  [1m[34mSELECT "details".* FROM "details" WHERE "details"."plant_id" = $1[0m  [["plant_id", 4]]
+[active_model_serializers]   ↳ app/controllers/plants_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (18.31ms)
+Completed 200 OK in 34ms (Views: 24.5ms | ActiveRecord: 8.3ms)
+
+
+Started POST "/login" for ::1 at 2019-07-04 10:23:11 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Aydie", "password"=>"[FILTERED]", "user"=>{"username"=>"Aydie"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Aydie"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 285ms (Views: 2.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:23:11 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 4]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 127ms (Views: 10.6ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/login" for ::1 at 2019-07-04 10:23:54 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Rosie", "password"=>"[FILTERED]", "user"=>{"username"=>"Rosie"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rosie"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 278ms (Views: 2.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:23:54 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (53.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (1.0ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 5]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 61ms (Views: 2.3ms | ActiveRecord: 54.9ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:25:12 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Aydogan", "password"=>"[FILTERED]", "user"=>{"username"=>"Aydogan"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Aydogan"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Aydogan"], ["password_digest", "$2a$12$fIuGkNC0iZwU/G1jG/PejehYhb0YBcfzFNnDRBVSbE5n1.pH7g4Fm"], ["created_at", "2019-07-04 09:25:13.263631"], ["updated_at", "2019-07-04 09:25:13.263631"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.5ms)
+Completed 200 OK in 297ms (Views: 4.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:25:13 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 400 Bad Request in 8ms (Views: 2.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:27:49 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.54ms)
+Completed 400 Bad Request in 32ms (Views: 6.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:27:56 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 400 Bad Request in 7ms (Views: 3.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:29:18 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Lucy", "password"=>"[FILTERED]", "user"=>{"username"=>"Lucy"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Lucy"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Lucy"], ["password_digest", "$2a$12$njRSHBwasXuBEcUm9Us5WO.97gkrGlR/8c36.W4jOTAmipYXUsZZS"], ["created_at", "2019-07-04 09:29:19.200370"], ["updated_at", "2019-07-04 09:29:19.200370"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (1.15ms)
+Completed 200 OK in 312ms (Views: 6.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:29:23 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 400 Bad Request in 8ms (Views: 3.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:29:26 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.32ms)
+Completed 400 Bad Request in 8ms (Views: 3.1ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:34:54 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Amalia", "password"=>"[FILTERED]", "user"=>{"username"=>"Amalia"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Amalia"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Amalia"], ["password_digest", "$2a$12$QmXh5/6V2FDEGvVMwka/8OOkcZm63Uge5FHqUsKR/HBKuhimxVH7m"], ["created_at", "2019-07-04 09:34:55.234799"], ["updated_at", "2019-07-04 09:34:55.234799"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.48ms)
+Completed 200 OK in 320ms (Views: 7.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:34:57 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 400 Bad Request in 94ms (Views: 89.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:36:50 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Kate", "password"=>"[FILTERED]", "user"=>{"username"=>"Kate"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Kate"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Kate"], ["password_digest", "$2a$12$9QMvDKAwFGvFpzI/iu7Pb.5V1vu734XaguD8JmzNzmta01m7dRCM."], ["created_at", "2019-07-04 09:36:50.834380"], ["updated_at", "2019-07-04 09:36:50.834380"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (1.69ms)
+Completed 200 OK in 342ms (Views: 11.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:36:53 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (7.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.47ms)
+Completed 400 Bad Request in 20ms (Views: 7.1ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:37:43 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Eleanor", "password"=>"[FILTERED]", "user"=>{"username"=>"Eleanor"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Eleanor"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Eleanor"], ["password_digest", "$2a$12$pRrSXAtQDI2LiwgJxhqawOM7bEbdvGHMTGCICJFzwXSBch41CPiTu"], ["created_at", "2019-07-04 09:37:43.713952"], ["updated_at", "2019-07-04 09:37:43.713952"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.25ms)
+Completed 200 OK in 306ms (Views: 3.2ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:38:54 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Izzy", "password"=>"[FILTERED]", "user"=>{"username"=>"Izzy"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Izzy"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Izzy"], ["password_digest", "$2a$12$IzkkyaJ6tF7QPVcgaFvs4uQ2u1RiHcc4Voo3ysiARdoU1Q9yeJLPi"], ["created_at", "2019-07-04 09:38:54.543496"], ["updated_at", "2019-07-04 09:38:54.543496"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 300ms (Views: 13.4ms | ActiveRecord: 12.4ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:39:47 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Angel", "password"=>"[FILTERED]", "user"=>{"username"=>"Angel"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Angel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Angel"], ["password_digest", "$2a$12$SnYGj/crHqyHOb7jlHWoZ.LpIMe7TEwq11.djzQcp69tQwJ1.eDCy"], ["created_at", "2019-07-04 09:39:47.547158"], ["updated_at", "2019-07-04 09:39:47.547158"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 312ms (Views: 1.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:39:49 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.0ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 12]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 66ms (Views: 4.7ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:40:07 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (44.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 48ms (Views: 1.7ms | ActiveRecord: 44.2ms)
+
+
+Started POST "/users" for ::1 at 2019-07-04 10:40:20 +0100
+Processing by UsersController#create as JSON
+  Parameters: {"username"=>"Isabella", "password"=>"[FILTERED]", "user"=>{"username"=>"Isabella"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER($1) LIMIT $2[0m  [["username", "Isabella"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (2.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Isabella"], ["password_digest", "$2a$12$C1vh7KIiwz5w6h7iGkX.rOj4X5OSJwyy4hxP7vTelwHJV13EvvT1S"], ["created_at", "2019-07-04 09:40:21.156996"], ["updated_at", "2019-07-04 09:40:21.156996"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 294ms (Views: 1.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:40:21 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (2.3ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 13]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:41:36 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 11ms (Views: 3.2ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:41:56 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:42:22 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (72.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 79ms (Views: 2.4ms | ActiveRecord: 73.0ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:42:38 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 200 OK in 45ms (Views: 1.9ms | ActiveRecord: 41.0ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:42:44 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:43:36 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (19.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.66ms)
+Completed 200 OK in 30ms (Views: 4.6ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:43:49 +0100
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/validate" for ::1 at 2019-07-04 10:46:25 +0100
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/rebecca/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#validate as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 61ms (Views: 14.9ms | ActiveRecord: 11.0ms)
+
+
+Started POST "/login" for ::1 at 2019-07-04 10:46:29 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Amalia", "password"=>"[FILTERED]", "user"=>{"username"=>"Amalia"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Amalia"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 283ms (Views: 1.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:46:29 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (5.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (0.6ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 8]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 68ms (Views: 3.7ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:46:52 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 400 Bad Request in 7ms (Views: 3.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/login" for ::1 at 2019-07-04 10:47:01 +0100
+Processing by UsersController#login as JSON
+  Parameters: {"username"=>"Amalia", "password"=>"[FILTERED]", "user"=>{"username"=>"Amalia"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Amalia"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 283ms (Views: 1.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/my-rooms" for ::1 at 2019-07-04 10:47:01 +0100
+Processing by UsersController#my_rooms as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+  [1m[36mRoom Load (1.8ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms" WHERE "rooms"."user_id" = $1[0m  [["user_id", 8]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 9ms (Views: 2.9ms | ActiveRecord: 2.3ms)
+
+

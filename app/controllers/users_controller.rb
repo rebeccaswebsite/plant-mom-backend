@@ -1,10 +1,14 @@
 class UsersController < ApplicationController
-    def create 
-        @user = User.create(user_params)
-        if @user.valid?
-            render json: { user: UserSerializer.new(@user) }, status: :created
+    def create
+        user = User.new(username: params[:username], password: params[:password])
+        
+        if user.save
+          render json: { username: user.username, token: issue_token({ id: user.id }), user_id: user.id }
         else
-            render json: { error: 'Failed to create user' }, status: :not_acceptable
+          render json: {
+            error: "The user was not created. Please try again later.",
+            status: 400
+            }, status: 400
         end
     end
 
@@ -54,9 +58,4 @@ class UsersController < ApplicationController
         user = User.find_by(id: params[:id])
         user.destroy
     end
-
-   private
-   def user_params
-    params.require(:user).permit(:username, :password)
-   end 
 end
