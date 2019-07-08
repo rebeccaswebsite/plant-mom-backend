@@ -1,4 +1,4 @@
-RoomPlant.destroy_all
+Note.destroy_all
 Detail.destroy_all
 Room.destroy_all
 Suggestion.destroy_all
@@ -37,3 +37,10 @@ plant_appearance_nine = RoomPlant.create(room: bedroom, plant: succulent)
 
 suggestion_one = Suggestion.create(plant: succulent, suggestion: "only water it once a month")
 suggestion_two = Suggestion.create(plant: cactus, suggestion: "cacti need 10 hours of sunlight a day")
+
+note_one = Note.create(room_plant: plant_appearance_one, content: "Next to the window since April")
+note_two = Note.create(room_plant: plant_appearance_one, content: "Next to the window since February")
+note_three = Note.create(room_plant: plant_appearance_one, content: "Hates frost")
+note_four = Note.create(room_plant: plant_appearance_one, content: "Flowering in May")
+note_five = Note.create(room_plant: plant_appearance_one, content: "Soaked soil through on 06/04/2019")
+note_six = Note.create(room_plant: plant_appearance_one, content: "Repotted on 02/01/2019")
