@@ -2,7 +2,7 @@ class RoomPlantsController < ApplicationController
     def index
         room_plants = RoomPlant.all
         if room_plants
-          render json: room_plants.to_json( :include => [:notes] )
+          render json: room_plants.to_json( :include => [:plant] )
         else
           render json: { error: 'Cannot find room/plant appearance' }, status: 404
         end
